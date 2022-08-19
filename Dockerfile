@@ -7,3 +7,5 @@ COPY . .
 WORKDIR /usr/local/apache2/conf/ 
 
 COPY httpd.conf .
+
+EXPOSE 8080
